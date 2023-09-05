@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (max-width: 1000px) {
+    #weeks-div {
+        margin-top: 12rem;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    #weeks-div {
+        margin-top: 45rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #week-tab {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #week-item {
+        margin-left: 20rem;
+        margin-right: 7rem;
+
+    }
+
+    #week-hours {
+        margin-left: 5rem;
+    }
+}

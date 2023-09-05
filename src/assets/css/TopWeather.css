@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (max-width: 1000px) {
+    #weather-box {
+        display: inline-block;
+    }
+}
