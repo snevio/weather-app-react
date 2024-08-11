@@ -1,3 +1,5 @@
+//*apiKey is not in env as usable by everyone*//
+
 export const baseApi = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline'
 export const apiKey = 'HNHG9TNYSWVY6GEHQUM9MRRNJ'
 
